@@ -6,6 +6,7 @@ import {
     validateAgent,
 } from "../model/agentModel.js";
 
+
 $(document).ready(async function () {
     const { agents, adminIds } = await getAllAgents();
     loadAllAgents(agents);
